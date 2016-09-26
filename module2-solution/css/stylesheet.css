@@ -3,7 +3,10 @@
   box-sizing: border-box;
 }
 h1 {
-  margin-bottom: 15px;
+  font-size: 1.75em;
+}
+title {
+  font-size: 1.75em;
 }
 p {
   border: 1px solid black;
