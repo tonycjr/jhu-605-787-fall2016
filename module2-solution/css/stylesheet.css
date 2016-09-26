@@ -119,11 +119,14 @@ section {
 }
 #chicken {
   background-color: lightpink;
+  padding: 1px 30px 1px 30px;
 }
 #beef {
   background-color: darkred;
   color: white;
+  padding: 1px 30px 1px 30px;
 }
 #sushi {
   background-color: lightyellow;
+  padding: 1px 30px 1px 30px;
 }
