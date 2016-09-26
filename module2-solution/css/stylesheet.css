@@ -1,4 +1,3 @@
-/********** Base styles **********/
 * {
   box-sizing: border-box;
 }
@@ -115,18 +114,19 @@ p {
   overflow: auto;
 }
 section {
-  font-size: 1.25em; text-align: right; 
+  font-size: 1.25em; 
+  text-align: right; 
+  padding: 1px 30px 1px 30px;
+  font-weight: bold;
 }
 #chicken {
   background-color: lightpink;
-  padding: 1px 30px 1px 30px;
+  
 }
 #beef {
   background-color: darkred;
   color: white;
-  padding: 1px 30px 1px 30px;
 }
 #sushi {
   background-color: lightyellow;
-  padding: 1px 30px 1px 30px;
 }
