@@ -155,7 +155,7 @@ body {
 /* END HOME PAGE */
 
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .container .jumbotron {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
     height: 675px;
