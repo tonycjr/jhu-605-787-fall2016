@@ -23,6 +23,10 @@ section {
  
 }
 
+p {
+ background-color: gray; 
+}
+
 #logo-img {
   background: url('../images/restaurant-logo_large.png') no-repeat;
   width: 150px;
