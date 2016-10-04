@@ -12,6 +12,14 @@ body {
   border: 0;
 }
 
+section {
+  font-size: 1.25em; 
+  text-align: right; 
+  padding: 1px 30px 1px 30px;
+  font-weight: bold;
+  background-color: gray;
+}
+
 #logo-img {
   background: url('../images/restaurant-logo_large.png') no-repeat;
   width: 150px;
