@@ -1,23 +1,25 @@
 body {
   font-size: 16px;
   color: black;
-  background-color: gray;
+  background-color: white;
   font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: gray;
   border-radius: 0;
   border: 0;
 }
 
 section {
+  background-color: gray;
   font-size: 1.25em; 
   text-align: right; 
   padding: 1px 30px 1px 30px;
   font-weight: bold;
-  background-color: gray;
+ 
 }
 
 #logo-img {
