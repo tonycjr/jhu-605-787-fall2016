@@ -155,7 +155,7 @@ body {
 /* END HOME PAGE */
 
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .container .jumbotron {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
     height: 675px;
@@ -163,7 +163,7 @@ body {
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   /* Header */
   #logo-img {
     background: url('../images/restaurant-logo_medium.png') no-repeat;
@@ -182,7 +182,7 @@ body {
 }
 
 /********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 767px) {
   /* Home Page */
   .container .jumbotron {
     background: url('../images/jumbotron_768.jpg') no-repeat;
