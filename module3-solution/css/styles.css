@@ -93,6 +93,10 @@ section {
 }
 /* END HEADER */
 
+#home-tiles {
+ background-color: gray; 
+}
+
 /* FOOTER */
 .panel-footer {
   margin-top: 30px;
