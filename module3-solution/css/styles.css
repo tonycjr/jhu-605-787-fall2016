@@ -155,7 +155,7 @@ body {
 /* END HOME PAGE */
 
 /********** Large devices only **********/
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
   .container .jumbotron {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
     height: 675px;
@@ -163,7 +163,7 @@ body {
 }
 
 /********** Medium devices only **********/
-@media (min-width: 722px) and (max-width: 910px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   /* Header */
   #logo-img {
     background: url('../images/restaurant-logo_medium.png') no-repeat;
