@@ -18,6 +18,12 @@ body {
   position: relative;
 }
 
+#brandheader {
+  background-color: gray;
+  font-size: 2em;
+  text-align: left;
+}
+
 section {
   background-color: gray;
   font-size: 1.17em; 
