@@ -23,6 +23,8 @@ body {
   font-size: 2em;
   text-align: left;
   color: black;
+  float: center;
+  position: relative;
 }
 
 section {
