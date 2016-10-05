@@ -12,7 +12,7 @@ body {
   border-radius: 0;
   border: 0;
   font-weight: bold;
-  font-size: h1;
+  font-size: 2em;
   padding: 1px 30px 1px 30px;
   float: center;
   position: relative;
@@ -44,6 +44,14 @@ section {
   height: 700px;
 }
 
+#beefheader {
+  background-color: gray;
+  font-size: 2em; 
+  text-align: left; 
+  padding: 1px 30px 1px 30px;
+  font-weight: bold;
+}
+
 #chicken {
   background-color: gray;
   font-size: 1em; 
@@ -52,12 +60,28 @@ section {
   height: 700px;
 }
 
+#chickenheader {
+  background-color: gray;
+  font-size: 2em; 
+  text-align: left; 
+  padding: 1px 30px 1px 30px;
+  font-weight: bold;
+}
+
 #sushi {
   background-color: gray;
   font-size: 1em; 
   text-align: left; 
   padding: 1px 30px 1px 30px;
   height: 700px;
+}
+
+#sushiheader {
+  background-color: gray;
+  font-size: 2em; 
+  text-align: left; 
+  padding: 1px 30px 1px 30px;
+  font-weight: bold;
 }
 
 p {
