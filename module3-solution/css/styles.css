@@ -114,6 +114,8 @@ p {
   font-weight: bold;
   font-size: 1em;
   text-align: left;
+  float: center;
+  position: relative;
 }
 .navbar-brand h1 { 
   font-family: 'Lora', serif;
