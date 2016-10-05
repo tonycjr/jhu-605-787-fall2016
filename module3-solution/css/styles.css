@@ -20,6 +20,9 @@ body {
 
 #brandheader {
   background-color: gray;
+  border-radius: 0;
+  border: 0;
+  font-weight: bold;
   font-size: 2em;
   text-align: left;
   color: black;
