@@ -37,6 +37,7 @@ section {
   font-size: 1.25em; 
   text-align: right; 
   padding: 1px 30px 1px 30px;
+  height: 700px;
 }
 
 #chicken {
@@ -44,6 +45,7 @@ section {
   font-size: 1.25em; 
   text-align: right; 
   padding: 1px 30px 1px 30px;
+  height: 700px;
 }
 
 #sushi {
@@ -51,6 +53,7 @@ section {
   font-size: 1.25em; 
   text-align: right; 
   padding: 1px 30px 1px 30px;
+  height: 700px;
 }
 
 p {
