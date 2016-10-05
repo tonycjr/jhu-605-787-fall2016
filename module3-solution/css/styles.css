@@ -23,6 +23,30 @@ section {
  
 }
 
+#beef {
+  background-color: gray;
+  font-size: 1.25em; 
+  text-align: right; 
+  padding: 1px 30px 1px 30px;
+  font-weight: bold;
+}
+
+#chicken {
+  background-color: gray;
+  font-size: 1.25em; 
+  text-align: right; 
+  padding: 1px 30px 1px 30px;
+  font-weight: bold;
+}
+
+#sushi {
+  background-color: gray;
+  font-size: 1.25em; 
+  text-align: right; 
+  padding: 1px 30px 1px 30px;
+  font-weight: bold;
+}
+
 p {
  background-color: gray; 
 }
