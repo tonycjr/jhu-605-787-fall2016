@@ -12,6 +12,8 @@ body {
   border-radius: 0;
   border: 0;
   font-weight: bold;
+  font-size: h1;
+  padding: 1px 30px 1px 30px;
 }
 
 section {
