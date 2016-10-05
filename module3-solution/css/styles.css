@@ -12,29 +12,11 @@ body {
   border-radius: 0;
   border: 0;
   font-weight: bold;
-  font-size: 2em;
-  padding: 1px 30px 1px 30px;
-  float: center;
-  position: relative;
-  color: black;
-}
-
-#brandheader {
-  background-color: gray;
-  border-radius: 0;
-  border: 0;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: left;
-  color: black;
-  float: center;
-  position: relative;
-  padding: 1px 30px 1px 30px;
 }
 
 section {
   background-color: gray;
-  font-size: 1.17em; 
+  font-size: 1.25em; 
   text-align: right; 
   padding: 1px 30px 1px 30px;
   font-weight: bold;
@@ -43,7 +25,7 @@ section {
 
 #ourmenu {
   background-color: white;
-  font-size: 2em; 
+  font-size: 1.25em; 
   text-align: center; 
   padding: 1px 30px 1px 30px;
   font-weight: bold;
@@ -52,50 +34,26 @@ section {
 
 #beef {
   background-color: gray;
-  font-size: 1em; 
+  font-size: 1.25em; 
   text-align: left; 
   padding: 1px 30px 1px 30px;
   height: 700px;
-}
-
-#beefheader {
-  background-color: gray;
-  font-size: 2em; 
-  text-align: left; 
-  padding: 1px 30px 1px 30px;
-  font-weight: bold;
 }
 
 #chicken {
   background-color: gray;
-  font-size: 1em; 
+  font-size: 1.25em; 
   text-align: left; 
   padding: 1px 30px 1px 30px;
   height: 700px;
-}
-
-#chickenheader {
-  background-color: gray;
-  font-size: 2em; 
-  text-align: left; 
-  padding: 1px 30px 1px 30px;
-  font-weight: bold;
 }
 
 #sushi {
   background-color: gray;
-  font-size: 1em; 
+  font-size: 1.25em; 
   text-align: left; 
   padding: 1px 30px 1px 30px;
   height: 700px;
-}
-
-#sushiheader {
-  background-color: gray;
-  font-size: 2em; 
-  text-align: left; 
-  padding: 1px 30px 1px 30px;
-  font-weight: bold;
 }
 
 p {
@@ -110,38 +68,29 @@ p {
 }
 
 .navbar-brand {
-  color: black;
   padding-top: 25px;
-  font-weight: bold;
-  font-size: 1em;
-  text-align: left;
-  float: center;
-  position: relative;
 }
-.navbar-brand h1 { 
+.navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: black;
-  font-size: 1em;
+  color: #557c3e;
+  font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
-    padding: 1px 30px 1px 30px;
-  float: center;
-  position: relative;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { 
+.navbar-brand p { /* Kosher cert */
   color: #000;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
 }
-.navbar-brand p span {
+.navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
 
@@ -159,6 +108,19 @@ p {
   font-size: 1.8em;
 }
 
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
@@ -171,6 +133,38 @@ p {
 #home-tiles {
  background-color: white; 
 }
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+
+
 
 /* HOME PAGE */
 .container .jumbotron {
