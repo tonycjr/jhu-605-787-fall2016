@@ -35,7 +35,6 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // using the 'speak' method or either helloSpeaker's or byeSpeaker's
 // 'speak' method.
 // See Lecture 50, part 1
-//for (/* fill in parts of the 'for' loop to loop over names array */) {
 
 for (var i = 0; i < names.length; i++) {
 
@@ -55,21 +54,13 @@ for (var i = 0; i < names.length; i++) {
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  
-  //if (/* fill in condition here */) {
-    // byeSpeaker.xxxx
-  //} else {
-    // helloSpeaker.xxxx
-  //}
 
   if (firstLetter === 'j') {
-    // console.log("Bye " + names[i]);
+    // Say Good Bye!
     byeSpeaker.name = names[i];
-    //yaakovGreeter.sayGoodbye();
-
     byeSpeaker.speak();
   } else {
-    // console.log("Hello " + names[i]);
+    // Say Hello!
     helloSpeaker.name = names[i];
     helloSpeaker.speak();
   }
