@@ -32,6 +32,7 @@ for (var i = 0; i < names.length; i++) {
     console.log("Bye " + names[i]);
   } else {
     console.log("Hello " + names[i]);
+    SpeakHello.speak("tony");
   }
 
 }
