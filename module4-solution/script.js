@@ -17,10 +17,6 @@ console.log(array[3].course);
 
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
-johnGreeter.name = "tony";
-johnGreeter.sayHi();
-
-
 for (var i = 0; i < names.length; i++) {
 
   var firstLetter = names[i].charAt(0).toLowerCase();
