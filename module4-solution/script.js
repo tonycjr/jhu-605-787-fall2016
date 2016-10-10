@@ -29,13 +29,13 @@ for (var i = 0; i < names.length; i++) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   
-  var sayHello = new SpeakHello();
+  var sayHello = new SpeakHello("tony");
   
   if (firstLetter === 'j') {
     console.log("Bye " + names[i]);
   } else {
     console.log("Hello " + names[i]);
-    sayHello.speak("tony");
+    sayHello.speak();
   }
 
 }
