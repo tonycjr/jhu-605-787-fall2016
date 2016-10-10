@@ -33,9 +33,13 @@ for (var i = 0; i < names.length; i++) {
   
   
   if (firstLetter === 'j') {
-    console.log("Bye " + names[i]);
+    // console.log("Bye " + names[i]);
+    yaakovGreeter.name = names[i];
+    yaakovGreeter.sayHello();
   } else {
-    console.log("Hello " + names[i]);
+    // console.log("Hello " + names[i]);
+    johnGreeter.name = names[i];
+    johnGreeter.sayHi();
   }
 
 }
