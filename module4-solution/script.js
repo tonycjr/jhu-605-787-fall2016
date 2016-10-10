@@ -17,8 +17,8 @@ console.log(array[3].course);
 
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 
-var hi = new SayHello(1);
-console.log(hi);
+var hi = new SayHello();
+console.log(hi.speak());
 
 for (var i = 0; i < names.length; i++) {
 
