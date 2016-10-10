@@ -15,7 +15,7 @@
 // See Lecture 52, part 2
 (function (window) {
   var helloSpeaker = {};
-  helloSpeaker.name = "John";
+  helloSpeaker.name = "";
   var greeting = "Hello ";
   helloSpeaker.speak = function () {
     console.log(greeting + helloSpeaker.name);
