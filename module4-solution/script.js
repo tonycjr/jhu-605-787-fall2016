@@ -28,11 +28,14 @@ for (var i = 0; i < names.length; i++) {
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
+  
+  var sayHello = new SpeakHello();
+  
   if (firstLetter === 'j') {
     console.log("Bye " + names[i]);
   } else {
     console.log("Hello " + names[i]);
-    SpeakHello.speak("tony");
+    sayHello.speak("tony");
   }
 
 }
