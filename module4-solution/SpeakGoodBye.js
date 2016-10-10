@@ -19,7 +19,7 @@
 (function (window) {
   var byeSpeaker = {};
   byeSpeaker.name = "Yaakov";
-  var greeting = "Goodbye ";
+  var greeting = "Good bye ";
   byeSpeaker.speak = function () {
     console.log(greeting + byeSpeaker.name);
   }
