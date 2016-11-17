@@ -23,7 +23,7 @@
       })
     }
 
-    narrowIt.removeItem = function (itemIndex) {
+    narrowIt.onRemove = function (itemIndex) {
       narrowIt.found.splice(itemIndex, 1);
     };
 
