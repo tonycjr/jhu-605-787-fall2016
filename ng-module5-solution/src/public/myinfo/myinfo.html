@@ -1,0 +1,37 @@
+<div class="container-fluid">
+  <h1>My Info</h1>
+  <div ng-hide="myInfoCtrl.menuItem">
+    Not Signed Up Yet. <a ui-sref="public.signup">Sign Up Now!</a>
+  </div>
+  <div ng-show="myInfoCtrl.menuItem">
+
+<table class="table table-hover">
+  <tr>
+    <td>First Name</td>
+    <td> {{myInfoCtrl.registration.firstName}}</td>
+  </tr>
+  <tr>
+    <td>Last Name</td>
+    <td> {{myInfoCtrl.registration.lastName}}</td>
+  </tr>
+  <tr>
+    <td>Email Address</td>
+    <td> {{myInfoCtrl.registration.email}}</td>
+  </tr>
+  <tr>
+    <td>Phone Number</td>
+    <td> {{myInfoCtrl.registration.phone}}</td>
+  </tr>
+  <tr>
+  <tr>
+      <td>Favorite Menu Item</td>
+        <td>
+           <img class="img-responsive" width="250" height="150"                
+              ng-src="{{myInfoCtrl.basePath}}/images/{{myInfoCtrl.menuItem.short_name}}.jpg"
+              alt="{{myInfoCtrl.menuItem.name}}"
+           >
+           {{myInfoCtrl.menuItem.name}} <br>
+           Description: {{myInfoCtrl.menuItem.description}}
+      </td>
+  </tr>
+</table>

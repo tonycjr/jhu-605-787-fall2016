@@ -1,0 +1,84 @@
+<div class="container-fluid">
+  <h1>Sign Up</h1>
+  <form name="signUpForm" novalidate class="form-horizontal">
+    <div class="form-group"
+         ng-class="{'has-error': signUpForm.firstName.$error.required && signUpForm.firstName.$touched}">
+      First Name: 
+      <input type="text"
+             name="firstName"
+             class="form-control"
+             placeholder="First name"
+             ng-model="signUpCtrl.registration.firstName"
+             required>
+      <span class="help-block"
+            ng-if="signUpForm.firstName.$error.required && signUpForm.firstName.$touched">
+        First name field is required.
+      </span>
+    </div>
+    <div class="form-group"
+         ng-class="{'has-error': signUpForm.lastName.$error.required && signUpForm.lastName.$touched}">
+      Last Name: 
+      <input type="text"
+             name="lastName"
+             class="form-control"
+             placeholder="Last name"
+             ng-model="signUpCtrl.registration.lastName"
+             required>
+      <span class="help-block"
+            ng-if="signUpForm.lastName.$error.required && signUpForm.lastName.$touched">
+        Last name field is required.
+      </span>
+    </div>
+    <div class="form-group"
+         ng-class="{'has-error': signUpForm.email.$invalid && signUpForm.email.$touched}">
+      E-Mail Address: 
+      <input type="email"
+             name="email"
+             class="form-control"
+             placeholder="emailAlias@domainName.com"
+             ng-model="signUpCtrl.registration.email"
+             required>
+      <span class="help-block"
+            ng-if="signUpForm.email.$invalid && signUpForm.email.$touched">
+        Email address field is required and must be in a correct format. (emailAlias@domainName.com)
+      </span>
+    </div>
+    <div class="form-group"
+         ng-class="{'has-error': signUpForm.phone.$invalid && signUpForm.phone.$touched}">
+      Phone Number: 
+      <input type="text"
+             name="phone"
+             class="form-control"
+             pattern="(\d{3})-(\d{3})-(\d{4})"
+             placeholder="###-###-####"
+             ng-model="signUpCtrl.registration.phone"
+             required>
+      <span class="help-block"
+            ng-if="signUpForm.phone.$invalid && signUpForm.phone.$touched">
+        Phone number field is required and must be of format ###-###-####
+      </span>
+    </div>
+    <div class="form-group">
+      Favorite Menu Item: 
+      <input type="text"
+             name="menuItem"
+             class="form-control"
+             placeholder="Please enter short name of your favorite menu item"
+             ng-model="signUpCtrl.registration.menuItem"
+             ng-blur="signUpCtrl.verifyMenuItem()">
+      <span class="help-block"
+            ng-if="signUpForm.menuItem.$invalid && signUpForm.menuItem.$touched">
+        No such menu number exists
+      </span>
+    </div>
+    <button type="submit"
+            class="btn btn-default"
+            ng-disabled="signUpForm.$invalid || !signUpCtrl.menuItemIsValid"
+            ng-click="signUpCtrl.signUp()">
+      Submit
+    </button>
+  </form>
+  <div class="info" ng-if="signUpCtrl.completed">
+    Your information has been saved.
+  </div>
+</div>
